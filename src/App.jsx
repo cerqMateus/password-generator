@@ -1,5 +1,11 @@
+import MainCard from "./components/MainCard";
+
 const App = () => {
-  return <h1 className="text-red-600">Olá</h1>;
+  return (
+    <div className="bg-gradient-to-r from-blue-200 to-cyan-200 w-screen h-screen flex items-center justify-center">
+      <MainCard />
+    </div>
+  );
 };
 
 export default App;
