@@ -11,10 +11,10 @@ const MainCard = () => {
           <SliderWithValue />
         </div>
         <div className="space-y-6 pt-3">
-          <CheckboxWithLabel>Letras maiúsculas</CheckboxWithLabel>
-          <CheckboxWithLabel>Letras minúsculas</CheckboxWithLabel>
-          <CheckboxWithLabel>Números</CheckboxWithLabel>
-          <CheckboxWithLabel>Símbolos</CheckboxWithLabel>
+          <CheckboxWithLabel id={"major"}>Letras maiúsculas</CheckboxWithLabel>
+          <CheckboxWithLabel id={"minor"}>Letras minúsculas</CheckboxWithLabel>
+          <CheckboxWithLabel id={"numbers"}>Números</CheckboxWithLabel>
+          <CheckboxWithLabel id={"symbols"}>Símbolos</CheckboxWithLabel>
         </div>
         <div className="flex items-start justify-center">
           <Button className="mt-20">Gerar Senha</Button>
